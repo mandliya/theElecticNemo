@@ -1,0 +1,310 @@
+<?xml version = "1.0"?>
+<GameData>
+
+<view>
+  <viewWidth>800</viewWidth>
+  <viewHeight>778</viewHeight>
+</view>
+
+<world>
+  <worldWidth>4000</worldWidth>
+  <worldHeight>778</worldHeight>
+</world>
+
+<screenTitle>CPSC 616 Project</screenTitle>
+<skyLimit>250</skyLimit>
+<font name="font">
+  <fontFile>font/dyslexic-bold.otf</fontFile>
+  <fontSize>16</fontSize>
+  <fontRed>0</fontRed>
+  <fontGreen>0</fontGreen>
+  <fontBlue>0</fontBlue>
+  <fontUnused>0</fontUnused>
+</font>
+  <font1Red>255</font1Red>
+  <font1Green>255</font1Green>
+  <font1Blue>255</font1Blue>
+  <font1Unused>0</font1Unused>
+
+
+ <Red>0</Red>
+  <Green>0</Green>
+  <Blue>0</Blue>
+
+<menuBack>
+  <menuBackFile>images/bg.png</menuBackFile>
+  <menuBackSrcX>0</menuBackSrcX>
+  <menuBackSrcY>0</menuBackSrcY>
+  <menuBackWidth>1000</menuBackWidth>
+  <menuBackHeight>778</menuBackHeight>
+  <menuBackLoc menuBackX="0" menuBackY="0"/>
+  <menuBackSpeed menuBackSpeedX="0" menuBackSpeedY="0"/>
+  <menuBackTransparency>false</menuBackTransparency>
+</menuBack>
+
+<maxStringSize>50</maxStringSize>
+<messageY>40</messageY>
+<hubCaption1>keyboard arrow key up to move the player fish up.</hubCaption1>
+<hubCaption2>keyboard arrow keys down move the player fish down.</hubCaption2>
+<hubCaption3>keyboard arrow key left to move the player fish left.</hubCaption3>
+<hubCaption4>keyboard arrow keys right move the player fish right.</hubCaption4>
+<hubCaption5>Hit Space Bar to shoot the electric current waves</hubCaption5>
+
+<hubY>60</hubY>
+
+<helpMsg1>The Goal of this game is to Kill the shark.</helpMsg1>
+<helpMsg2>Try to avoid the predator fish and the Octopus as they reduce your health.</helpMsg2>
+<helpMsg3>On collision with shark, health is reduced faster.</helpMsg3>
+<helpMsg4>Use arrow keys to Navigate and space to shoot electric current waves</helpMsg4>
+<helpMsg5>Good Luck! </helpMsg5> 
+<helpMsgLoc>250</helpMsgLoc>
+
+<helpMsg6>Hit ESC or Q to go to go back</helpMsg6>
+
+<words0>Start Game</words0>
+  <words1>Difficulty Level</words1>
+  <words2>Help</words2>
+  <words3>Exit</words3>
+
+<fps>60</fps>
+<numberOfObjects>2</numberOfObjects>
+
+<adjustingFactor1>0.9</adjustingFactor1>
+<adjustingFactor2>0.7</adjustingFactor2>
+<adjustingFactor3>1.25</adjustingFactor3>
+
+<tickInterval>30</tickInterval>
+
+<background>
+  <backgroundFile>images/back.png</backgroundFile>
+  <backgroundSrcX>0</backgroundSrcX>
+  <backgroundSrcY>0</backgroundSrcY>
+  <backgroundWidth>1000</backgroundWidth>
+  <backgroundHeight>778</backgroundHeight>
+  <backgroundLoc backgroundX="0" backgroundY="0"/>
+  <backgroundSpeed backgroundSpeedX="0" backgroundSpeedY="0"/>
+  <backgroundTransparency>false</backgroundTransparency>
+</background>
+
+
+<front>
+  <frontFile>images/front.png</frontFile>
+  <frontSrcX>0</frontSrcX>
+  <frontSrcY>0</frontSrcY>
+  <frontWidth>1000</frontWidth>
+  <frontHeight>778</frontHeight>
+  <frontLoc frontX="0" frontY="0"/>
+  <frontSpeed frontSpeedX="0" frontSpeedY="0"/>
+  <frontTransparency>false</frontTransparency>
+</front>
+
+
+<shark>
+  <sharkFile>images/shark2.png</sharkFile>
+  <sharkLoc sharkX="100" sharkY="600"/>
+  <sharkFrames>2</sharkFrames>
+  <sharkLeftFrames>2</sharkLeftFrames>
+  <sharkFrameInterval>3</sharkFrameInterval>
+  <sharkChunks>100</sharkChunks>
+  <sharkChunkDistance>200</sharkChunkDistance>
+  <sharkSrc sharkSrcX="0" sharkSrcY="0" />
+  <sharkLeftSrc sharkLeftSrcX="0" sharkLeftSrcY="199" />
+  <sharkWidth>351</sharkWidth>
+  <sharkHeight>199</sharkHeight>
+  <sharkSpeedX>300</sharkSpeedX>
+  <sharkSpeedY>0</sharkSpeedY>
+  <sharkTransparency>true</sharkTransparency>
+  <sharkCaption> You are tracking Deadly Shark! Press 't' to switch big fish</sharkCaption>
+   
+</shark>
+
+<octo>
+  <octoFile>images/octopus.png</octoFile>
+  <octoNumber>1</octoNumber>
+  <octoLoc octoX="750" octoY="650"/>
+
+  <octoFrames>4</octoFrames>
+  <octoFrameInterval>2</octoFrameInterval>
+  <octoChunks>25</octoChunks>
+  <octoChunkDistance>200</octoChunkDistance>
+  <octoSrcX>0</octoSrcX>
+  <octoSrcY>0</octoSrcY>
+  <octoWidth>96</octoWidth>
+  <octoHeight>96</octoHeight>
+  <octoSpeedX>-200</octoSpeedX>
+  <octoSpeedY>50</octoSpeedY>
+  <octoTransparency>true</octoTransparency>
+</octo>
+
+<bullet>
+  <bulletFile>images/lightning1.png</bulletFile>
+  <bulletBulletInterval>50</bulletBulletInterval>
+  <bulletDistance>100</bulletDistance>
+  <bulletSpeedX>600</bulletSpeedX>
+  <bulletSpeedY>0</bulletSpeedY>
+  <bulletFrames>3</bulletFrames>
+  <bulletWidth>204</bulletWidth>
+  <bulletHeight>50</bulletHeight>
+  <bulletSrcX>0</bulletSrcX>
+  <bulletSrcY>0</bulletSrcY>
+  <bulletFrameInterval>5</bulletFrameInterval>
+  <bulletTransparency>true</bulletTransparency>
+</bullet>
+
+
+<dyingocto>
+  <dyingoctoFile>images/dyingOcto.png</dyingoctoFile>
+  <dyingoctoLoc dyingoctoX="120" dyingoctoY="400"/>
+
+  <dyingoctoFrames>4</dyingoctoFrames>
+  <dyingoctoFrameInterval>500</dyingoctoFrameInterval>
+  <dyingoctoChunks>25</dyingoctoChunks>
+  <dyingoctoDistance>100</dyingoctoDistance>
+
+  <dyingoctoSrcX>0</dyingoctoSrcX>
+  <dyingoctoSrcY>0</dyingoctoSrcY>
+  <dyingoctoWidth>96</dyingoctoWidth>
+  <dyingoctoHeight>96</dyingoctoHeight>
+  <dyingoctoSpeedX>4</dyingoctoSpeedX>
+  <dyingoctoSpeedY>100</dyingoctoSpeedY>
+  <dyingoctoTransparency>true</dyingoctoTransparency>
+</dyingocto>
+
+
+
+<sfish>
+  <sfishFile>images/smallfish.png</sfishFile>
+  <sfishCushion>50</sfishCushion>
+  <sfishLoc sfishX="10" sfishY="500"/>
+  <sfishFrames>2</sfishFrames>
+  <sfishChunkDistance>200</sfishChunkDistance>
+  <sfishLeftFrames>2</sfishLeftFrames>
+  <sfishFrameInterval>5</sfishFrameInterval>
+  <sfishChunks>25</sfishChunks>
+  <sfishSrc sfishSrcX="0" sfishSrcY="0" />
+  <sfishLeftSrc sfishLeftSrcX="0" sfishLeftSrcY="54" />
+  <sfishWidth>75</sfishWidth>
+  <sfishHeight>54</sfishHeight>
+  <sfishSpeedX>300</sfishSpeedX>
+  <sfishSpeedY>0</sfishSpeedY>
+  <sfishTransparency>true</sfishTransparency>
+  <sfishCaption>fish</sfishCaption>
+  <sfishMinScale>0.5</sfishMinScale>	
+  <sfishMaxScale>1.5</sfishMaxScale>
+</sfish>
+
+<fish>
+  <fishFile>images/fishd.png</fishFile>
+  <fishLoc fishX="100" fishY="300"/>
+  <fishBullet>bullet</fishBullet>
+  <fishFrames>2</fishFrames>
+  <fishLeftFrames>2</fishLeftFrames>
+  <fishFrameInterval>2</fishFrameInterval>
+  <fishChunks>25</fishChunks>
+  <fishSrc fishSrcX="0" fishSrcY="0" />
+  <fishLeftSrc fishLeftSrcX="0" fishLeftSrcY="109" />
+  <fishWidth>151</fishWidth>
+  <fishHeight>109</fishHeight>
+  <fishSpeedX>250</fishSpeedX>
+  <fishSpeedY>0</fishSpeedY>
+  <fishMinY>250</fishMinY>
+  <fishTransparency>true</fishTransparency>
+  <fishCaption>You are tracking Player fish, Press 't' to switch to shark</fishCaption>
+</fish>
+
+<numberOfSmallFish>4</numberOfSmallFish>
+<smallfish>
+  <smallfishFile>images/smallfish.png</smallfishFile>
+  <smallfishCushion>50</smallfishCushion>
+  <smallfishLoc smallfishX="500" smallfishY="600"/>
+  <smallfishFrames>2</smallfishFrames>
+  <smallfishLeftFrames>2</smallfishLeftFrames>
+  <smallfishFrameInterval>5</smallfishFrameInterval>
+  <smallfishChunks>25</smallfishChunks>
+  <smallfishChunkDistance>200</smallfishChunkDistance>
+  <smallfishSrc smallfishSrcX="0" smallfishSrcY="0" />
+  <smallfishLeftSrc smallfishLeftSrcX="0" smallfishLeftSrcY="54" />
+  <smallfishWidth>75</smallfishWidth>
+  <smallfishHeight>54</smallfishHeight>
+  <smallfishSpeedX>300</smallfishSpeedX>
+  <smallfishSpeedY>0</smallfishSpeedY>
+  <smallfishTransparency>true</smallfishTransparency>
+  <smallfishCaption>smallfish</smallfishCaption>
+</smallfish>
+
+<numberOfgFish>1</numberOfgFish>
+<gFish>
+  <gFishFile>images/gfish1.png</gFishFile>
+  <gFishCushion>50</gFishCushion>
+  <gFishLoc gFishX="700" gFishY="570"/>
+  <gFishFrames>2</gFishFrames>
+  <gFishLeftFrames>2</gFishLeftFrames>
+  <gFishFrameInterval>2</gFishFrameInterval>
+  <gFishChunks>25</gFishChunks>
+  <gFishChunkDistance>200</gFishChunkDistance>
+  <gFishSrc gFishSrcX="0" gFishSrcY="0" />
+  <gFishLeftSrc gFishLeftSrcX="0" gFishLeftSrcY="109" />
+  <gFishWidth>151</gFishWidth>
+  <gFishHeight>109</gFishHeight>
+  <gFishSpeedX>250</gFishSpeedX>
+  <gFishSpeedY>0</gFishSpeedY>
+  <gFishTransparency>true</gFishTransparency>
+  <gFishCaption>gFish</gFishCaption>
+</gFish>
+
+<dyingFish>
+  <dyingFishFile>images/dyingfish1.png</dyingFishFile>
+  <dyingFishCushion>50</dyingFishCushion>
+  <dyingFishLoc dyingFishX="300" dyingFishY="500"/>
+  <dyingFishFrames>2</dyingFishFrames>
+  <dyingFishLeftFrames>2</dyingFishLeftFrames>
+  <dyingFishFrameInterval>200</dyingFishFrameInterval>
+  <dyingFishChunks>25</dyingFishChunks>
+  <dyingFishChunkDistance>200</dyingFishChunkDistance>
+  <dyingFishSrc dyingFishSrcX="0" dyingFishSrcY="0" />
+  <dyingFishLeftSrc dyingFishLeftSrcX="0" dyingFishLeftSrcY="109" />
+  <dyingFishWidth>151</dyingFishWidth>
+  <dyingFishHeight>109</dyingFishHeight>
+  <dyingFishSpeedX>20</dyingFishSpeedX>
+  <dyingFishSpeedY>200</dyingFishSpeedY>
+  <dyingFishTransparency>true</dyingFishTransparency>
+  <dyingFishCaption>dyingFish</dyingFishCaption>
+</dyingFish>
+<net>
+  <netFile>images/net.png</netFile>
+  <netCushion>50</netCushion>
+  <netLoc netX="300" netY="200"/>
+  <netFrames>2</netFrames>
+  <netFrameInterval>1</netFrameInterval>
+  <netChunks>40</netChunks>
+  <netChunkDistance>200</netChunkDistance>
+  <netSrc netSrcX="0" netSrcY="0" />
+  <netWidth>100</netWidth>
+  <netHeight>240</netHeight>
+  <netSpeedX>0</netSpeedX>
+  <netSpeedY>50</netSpeedY>
+  <netTransparency>true</netTransparency>
+  <netCaption>net</netCaption>
+</net>
+
+  <LimitX1>500</LimitX1>
+  <LimitX2>650</LimitX2>
+
+
+<fractaltree>
+  <fractaltreeFile>xmlSpec/fractaltree.xml</fractaltreeFile>
+  <fractaltreeSrcX>0</fractaltreeSrcX>
+  <fractaltreeSrcY>0</fractaltreeSrcY>
+  <fractaltreeChunks>50</fractaltreeChunks>
+  <fractaltreeChunkDistance>200</fractaltreeChunkDistance>
+  <fractaltreeWidth>400</fractaltreeWidth>
+  <fractaltreeHeight>400</fractaltreeHeight>
+  <fractaltreeCaption>fractaltree</fractaltreeCaption>
+  <fractaltreeLoc fractaltreeX="320" fractaltreeY="0"/>
+  <fractaltreeSpeed fractaltreeSpeedX="0" fractaltreeSpeedY="0"/>
+  <fractaltreeTransparency>true</fractaltreeTransparency>
+</fractaltree>
+
+
+
+</GameData>

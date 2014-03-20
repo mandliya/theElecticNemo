@@ -1,0 +1,37 @@
+<?xml version = "1.0"?>
+<GameData>
+
+<view>
+  <viewWidth>640</viewWidth>
+  <viewHeight>480</viewHeight>
+</view>
+
+<world>
+  <worldWidth>640</worldWidth>
+  <worldHeight>480</worldHeight>
+</world>
+
+<screenTitle>Basic Animation Framework</screenTitle>
+
+<font name="font">
+  <fontFile>font/dyslexic-bold.otf</fontFile>
+  <fontSize>14</fontSize>
+  <fontRed>255</fontRed>
+  <fontGreen>255</fontGreen>
+  <fontBlue>255</fontBlue>
+  <fontUnused>0</fontUnused>
+</font>
+<maxStringSize>50</maxStringSize>
+
+<redorb>
+  <redorbFile>images/redball.bmp</redorbFile>
+  <redorbSrcX>0</redorbSrcX>
+  <redorbSrcY>0</redorbSrcY>
+  <redorbWidth>32</redorbWidth>
+  <redorbHeight>32</redorbHeight>
+  <redorbLoc redorbX="10" redorbY="10"/>
+  <redorbSpeed redorbSpeedX="250" redorbSpeedY="250"/>
+  <redorbTransparency>true</redorbTransparency>
+</redorb>
+
+</GameData>

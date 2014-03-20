@@ -1,0 +1,42 @@
+Name:Ravi Mandliya
+Email:rmandli@clemson.edu
+Date:04/25/2013
+
+Proj No:5
+Description:
+In this final stage, game should be concluded with game over or player winning scenario. It should also incorporate menu giving player options to
+customize the game. The game should also have an AI which make some sprites smart.
+
+XML File changes:
+
+safeDistance( For AI) tag and some  menu & Help tag
+
+
+The Specs that I implemented are:
+
+1. Integrated Menu which has options to 
+	-Start game
+	-Choose Difficulty level, higher the difficulty level, tougher will be to kill the shark as her health bar will update slow.
+	-Help - Help shows an extensive help about the goal and controls of the game.
+	-Exit - To exit from the game
+
+2. Implemented health bar for Shark and player, the player wins if shark health becomes 0 and game is over if player's health becomes 0
+
+3. Implemented AI, Octopus will evade from the player fish. They will always be at a safe Distance which can be customized from game.xml
+
+4. If Shark is collided with player, the health reduces faster.
+
+5. Added extra sounds for Game over, player win and menu.
+
+6. There are no leaks.
+
+Credits:
+	theme song - Underwater mario theme - www.dilandau.com
+	electric buzz- www.dilandau.com
+	Mario Game over- http://themushroomkingdom.net/media/smb/wav
+        Mario world win - http://themushroomkingdom.net/media/smb/wav
+	Mario Fireball - http://themushroomkingdom.net/media/smb/wav
+
+
+	
+

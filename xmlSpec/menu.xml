@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<MenuSpec>
+
+<words>
+  <wordsNumber>4</wordsNumber>
+  <wordsX>400</wordsX>
+  <wordsY>300</wordsY>
+  <wordsSpaceX>-30</wordsSpaceX>
+  <wordsSpaceY>50</wordsSpaceY>
+  <words0>Start Game</words0>
+  <words1>Difficulty Level</words1>
+  <words2>Help</words2>
+  <words3>Exit</words3>
+</words>
+
+<wordsub>
+  <wordsubNumber>3</wordsubNumber>
+  <wordsubX>400</wordsubX>
+  <wordsubY>300</wordsubY>
+  <wordsubSpaceX>-30</wordsubSpaceX>
+  <wordsubSpaceY>50</wordsubSpaceY>
+  <wordsub0>Easy</wordsub0>
+  <wordsub1>Medium</wordsub1>
+  <wordsub2>Hard</wordsub2>
+  
+</wordsub>
+
+
+
+
+<clickoff>
+  <clickoffFile>images/clickfish.png</clickoffFile>
+  <clickoffWidth>50</clickoffWidth>
+  <clickoffHeight>37</clickoffHeight>
+  <clickoffSrcX>0</clickoffSrcX>
+  <clickoffSrcY>0</clickoffSrcY>
+  <clickoffTransparency>false</clickoffTransparency>
+</clickoff>
+
+<clickon>
+  <clickonFile>images/clickonfish.png</clickonFile>
+  <clickonWidth>50</clickonWidth>
+  <clickonHeight>37</clickonHeight>
+  <clickonSrcX>0</clickonSrcX>
+  <clickonSrcY>0</clickonSrcY>
+  <clickonTransparency>false</clickonTransparency>
+</clickon>
+
+</MenuSpec>
